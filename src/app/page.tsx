@@ -2,65 +2,86 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-gray-800 px-6 py-12">
-      <section className="max-w-4xl mx-auto text-center">
-        <h1 className="text-4xl font-bold text-blue-700 mb-4">
-          Agile Transformation Consulting by Narges Rajabnezhad
-        </h1>
-        <p className="text-lg mb-8">
-          I help software, telecom, and IoT teams deliver faster, align
-          product & engineering goals, and build cultures of continuous
-          improvement.
-        </p>
+    <main className="min-h-screen bg-black text-gray-100 px-8 py-12 font-sans">
+      <section className="max-w-5xl mx-auto text-center">
+        <h1 className="text-4xl font-bold text-green-400 mb-4">
+          Agile Transformation Consulting by Canada Agilists
 
-        <a
-          href="mailto:yourname@email.com"
-          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
-        >
-          Contact Me
-        </a>
+        </h1>
+        <p className="text-lg mb-8 text-gray-200">
+          In today’s fast-changing world, organizations can’t afford slow
+          delivery, misaligned teams, or wasted effort. Transforming to Agile
+          isn’t just important — it’s urgent.
+        </p>
+        <p className="text-lg mb-8 text-gray-200">
+          We help teams move from chaos to clarity through pragmatic Agile
+          transformation and delivery coaching — empowering your people to
+          adapt, collaborate, and deliver value faster.
+        </p>
       </section>
 
-      <section className="max-w-4xl mx-auto mt-20">
-        <h2 className="text-2xl font-semibold mb-4 text-center">
-          Services
+      <section className="max-w-5xl mx-auto mt-20 text-center">
+        <h2 className="text-2xl font-semibold text-green-400 mb-4">
+          Our Services
         </h2>
-        <ul className="space-y-4">
+        <ul className="text-left space-y-4">
           <li>
-            <strong>Agile Health Assessment –</strong> Identify top
-            delivery blockers and get a clear 90-day improvement plan.
+            <strong>Agile Health Assessment –</strong> Identify top delivery
+            blockers and receive a 90-day roadmap for measurable improvement.
           </li>
           <li>
-            <strong>Team Coaching & Training –</strong> Hands-on
-            sessions to build predictability and reduce cycle time.
+            <strong>Transformation Program –</strong> End-to-end Agile adoption
+            from leadership alignment to delivery metrics and continuous
+            improvement.
           </li>
           <li>
-            <strong>Agile Transformation Program –</strong> From
-            leadership alignment to team-level adoption and metrics.
+            <strong>Team Coaching & Training –</strong> We embed with your teams
+            to strengthen collaboration, predictability, and flow.
+          </li>
+          <li>
+            <strong>Scrum Master as a Service –</strong> Need ongoing support
+            beyond transformation? We can provide certified Scrum Masters to
+            sustain Agile delivery long-term.
+          </li>
+          <li>
+            <strong>Jira Setup & Migration –</strong> Create, migrate, or
+            optimize Jira projects for better workflow visibility and automation.
+          </li>
+          <li>
+            <strong>Agile Delivery Consulting –</strong> From backlog design to
+            release management, we help software teams deliver faster and more
+            predictably.
+          </li>
+          <li>
+            <strong>Workshops & Leadership Coaching –</strong> Train your
+            executives and managers on modern Agile leadership practices.
           </li>
         </ul>
       </section>
 
-      <section className="max-w-4xl mx-auto mt-20 text-center">
-        <h2 className="text-2xl font-semibold mb-2">Connect with Me</h2>
+      <section className="max-w-5xl mx-auto mt-20 text-center">
+        <h2 className="text-2xl font-semibold text-green-400 mb-2">
+          Connect With Us
+        </h2>
         <p>
           📧 Email:{" "}
           <a
-            href="mailto:yourname@email.com"
-            className="text-blue-600 underline"
+            href="mailto:info@canadaagileconsulting.com"
+            className="text-green-400 underline"
           >
-            yourname@email.com
+            info@canadaagileconsulting.com
           </a>{" "}
           | 🌐 LinkedIn:{" "}
           <a
-            href="https://www.linkedin.com/in/YOUR-LINKEDIN/"
+            href="https://www.linkedin.com/company/canada-agile-consulting/"
             target="_blank"
-            className="text-blue-600 underline"
+            className="text-green-400 underline"
           >
-            linkedin.com/in/YOUR-LINKEDIN
+            linkedin.com/company/canada-agile-consulting
           </a>
         </p>
       </section>
     </main>
-  )
+  );
 }
+

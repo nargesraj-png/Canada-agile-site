@@ -7,17 +7,16 @@ export default function Navbar() {
 
   const linkClass = (path: string) =>
     pathname === path
-      ? "text-blue-600 font-semibold border-b-2 border-blue-600"
-      : "text-gray-700 hover:text-blue-600";
+      ? "text-green-400 font-semibold border-b-2 border-green-400"
+      : "text-gray-100 hover:text-green-300";
 
   return (
-    <nav className="border-b bg-white shadow-sm">
+    <nav className="bg-black border-b border-green-400 shadow-md mt-6">
       <div className="max-w-5xl mx-auto flex justify-between items-center px-6 py-4">
-        <Link href="/" className="text-xl font-bold text-blue-700">
-          Narges Agile Consulting
+        <Link href="/" className="text-2xl font-bold text-green-400">
+          Canada Agile Consulting
         </Link>
-
-        <div className="space-x-6 text-sm">
+        <div className="space-x-8 text-base">
           <Link href="/" className={linkClass("/")}>
             Home
           </Link>
